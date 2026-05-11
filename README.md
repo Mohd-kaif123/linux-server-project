@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates real-world Linux server administration skills on AWS cloud infrastructure. It covers:
 
@@ -24,7 +24,7 @@ This project demonstrates real-world Linux server administration skills on AWS c
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -37,7 +37,7 @@ This project demonstrates real-world Linux server administration skills on AWS c
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 linux-server-project/
@@ -58,7 +58,7 @@ linux-server-project/
 
 ---
 
-## 🚀 Setup Steps — A to Z
+## Setup Steps — A to Z
 
 ### Step 1: AWS EC2 Instance Launch Karo
 
@@ -126,7 +126,7 @@ bash scripts/setup-cron.sh
 
 ---
 
-## 📜 Scripts Description
+##  Scripts Description
 
 ### 1. `cleanup.sh` — Log File Cleanup
 **Kya karta hai:** `/var/log` directory mein 7 din se purane `.log` files automatically delete karta hai.
@@ -199,7 +199,7 @@ crontab -l
 
 ---
 
-## 🔐 File Permissions Used
+## File Permissions Used
 
 ```
 chmod 400 kaif-key.pem     → Private key: sirf owner padh sake (SSH security)
@@ -213,7 +213,7 @@ chmod 644 file.txt         → Normal file: owner edit, others sirf padhe
 
 ---
 
-## ❌ .gitignore — Kya Upload Nahi Karna
+##  .gitignore — Kya Upload Nahi Karna
 
 ```
 *.pem           # Private SSH keys — kabhi push mat karo!
@@ -223,11 +223,11 @@ __pycache__/
 .DS_Store
 ```
 
-> ⚠️ **Security Rule:** Private key (.pem) kabhi bhi GitHub pe push mat karo. Ek baar public ho gayi toh server compromised ho sakta hai.
+> **Security Rule:** Private key (.pem) kabhi bhi GitHub pe push mat karo. Ek baar public ho gayi toh server compromised ho sakta hai.
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 - AWS EC2 pe Ubuntu server launch karna aur configure karna
 - SSH key-pair authentication se secure remote access
@@ -238,7 +238,7 @@ __pycache__/
 
 ---
 
-## 📊 Project Stats
+##  Project Stats
 
 - **Scripts Written:** 4
 - **Lines of Code:** ~200+
