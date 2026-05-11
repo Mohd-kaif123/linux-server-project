@@ -12,7 +12,7 @@
 # STEP 1: Apne laptop/server pe git configure karo
 # ----------------------------------------------------------
 git config --global user.name "Mohd-kaif123"
-git config --global user.email "mansoorikaif365@gmail.com"
+git config --global user.email "mansoorikaif****@gmail.com"
 
 # ----------------------------------------------------------
 # STEP 2: Project folder mein jaao
@@ -36,7 +36,7 @@ git init
 # ----------------------------------------------------------
 # STEP 5: Remote add karo (apna username daalo)
 # ----------------------------------------------------------
-git remote add origin git@github.com:Mohd-kaif123/linux-server-project.git
+git remote add origin git@github.com:Moh**************-server-project.git
 
 # ----------------------------------------------------------
 # STEP 6: Saari files stage karo
@@ -64,4 +64,4 @@ git push -u origin main
 # STEP 9: Verify — GitHub pe jaake dekho ✓
 # ----------------------------------------------------------
 echo "Done! GitHub pe jaao aur apna project dekho:"
-echo "git@github.com:Mohd-kaif123/linux-server-project.git"
+echo "git@github.com:Mo***************rver-project.git"
