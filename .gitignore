@@ -1,0 +1,30 @@
+# ============================================================
+#  .gitignore — Linux Server Project
+#  Author: Mohd Kaif Mansoori
+#  Purpose: Sensitive aur unnecessary files GitHub pe na jaayein
+# ============================================================
+
+# SSH Private Keys — KABHI PUSH MAT KARO!
+*.pem
+*.key
+*.ppk
+id_rsa
+id_rsa.pub
+
+# Environment Variables & Credentials
+.env
+.env.local
+*.secret
+
+# Log Files — bade hote hain, GitHub ke liye nahi
+logs/*.log
+*.log
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.bak
+/tmp/
